@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Nagle's Blog`,
-    siteUrl: `https://hyeokjaelee.github.io/`,
+    title: `BK's Blog`,
+    siteUrl: `https://bokangkim.github.io/`,
   },
   plugins: [
     {
@@ -17,8 +17,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://hyeokjaelee.github.io",
-        sitemap: "https://hyeokjaelee.github.io/sitemap/sitemap-index.xml",
+        host: "https://bokangkim.github.io",
+        sitemap: "https://bokangkim.github.io/sitemap/sitemap-index.xml",
         policy: [
           {
             userAgent: "*",

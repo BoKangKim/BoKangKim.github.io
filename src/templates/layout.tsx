@@ -15,11 +15,11 @@ const TemplateWrapper = ({ children, location }: any) => {
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
       <Helmet
-        title="Nagle`s Blog"
+        title="BK`s Blog"
         meta={[
           { name: `description`, content: `programming & tech blog` },
           { name: `generator`, content: `gatsby` },
-          { name: `author`, content: `HyeokjaeLee` },
+          { name: `author`, content: `bokangkim` },
           {
             name: `google-site-verification`,
             content: "6KHb8V0fAsVjI-k0fZfovmdLDrfikkgwpVMCsfSmvrw",

@@ -33,44 +33,50 @@ const About = () => {
         <h1 className="about-text">About</h1>
         <article className="about">
           <div className="profile-wrap">
-            <img className="profile" src={postProfile} title="Hyeokjae" />
-            <h2 className="name">Hyeok-jae Lee</h2>
+            <img className="profile" src={postProfile} title="BokangKim" />
+            <h2 className="name">BoKang_Kim</h2>
             <h3>📪 Contact & Channel</h3>
             <ul className="list contactChannel">
               <li>
                 <Gmail className="icon small" />
-                <a href="mailto:leehyeokjae97@gmail.com">leehyeokjae97@gmail.com</a>
+                <a href="mailto:bkbk0329@gmail.com">bkbk0329@gmail.com</a>
               </li>
               <li>
                 <Github className="icon small" />
-                <a href="https://github.com/HyeokjaeLee">https://github.com/HyeokjaeLee</a>
+                <a href="https://github.com/bokangkim">
+                  https://github.com/bokangkim
+                </a>
               </li>
             </ul>
           </div>
           <div className="text-wrap">
             <h2>📋 Introduction</h2>
             <ul>
-              <li>풀스택 개발자를 꿈꾸고 있습니다.</li>
-              <li>항상 더 편리한 방법을 고민합니다.</li>
-              <li>Javascript 생태계를 사랑하고 새로운 기술을 배우는걸 즐깁니다.</li>
-              <li>웹 기술 트렌드에 관심이 많습니다.</li>
-              <li>Know-What, Know-Where을 중요하게 생각합니다.</li>
+              <li>게임 엔진 프로그래머를 목표로 하고 있습니다.</li>
+              <li>수학, 과학적인 원리를 배우는 것을 좋아합니다.</li>
+              <li>
+                모든 사람들이 즐길 수 있는 대전 액션 장르의 게임을 만들고
+                싶습니다.
+              </li>
+              <li>Tech 트렌드에 관심이 많습니다.</li>
+              <li>코드에 성능과 가독성에 대한 고민을 생활화 합니다.</li>
             </ul>
             <h2>📒 Interested tech stack</h2>
             <ul className="list techStack">
-              <Label name="Node.js" backgroundColor="339933" logoColor="white" />
+              <li>
+                <img
+                  className="label"
+                  src={`https://img.shields.io/badge/C++-A8B9CC?style=flat-round&logo=Cplusplus&logoColor=black`}
+                />
+              </li>
+              <Label name="Cocos" backgroundColor="55C2E1" logoColor="black" />
               <Label name="HTML5" backgroundColor="E34F26" logoColor="white" />
-              <Label name="CSS3" backgroundColor="1572B6" logoColor="white" />
-              <Label name="Sass" backgroundColor="CC6699" logoColor="white" />
-              <Label name="TypeScript" backgroundColor="3178C6" logoColor="white" />
-              <Label name="JavaScript" backgroundColor="F7DF1E" logoColor="black" />
-              <Label name="React" backgroundColor="61DAFB" logoColor="black" />
-              <Label name="Next.js" backgroundColor="000000" logoColor="white" />
-              <Label name="Express" backgroundColor="000000" logoColor="white" />
-              <Label name="GraphQL" backgroundColor="E434AA" logoColor="white" />
-              <Label name="MariaDB" backgroundColor="003545" logoColor="white" />
-              <Label name="MongoDB" backgroundColor="47A248" logoColor="white" />
-              <Label name="Electron" backgroundColor="47848F" logoColor="white" />
+
+              <Label
+                name="JavaScript"
+                backgroundColor="F7DF1E"
+                logoColor="black"
+              />
             </ul>
           </div>
         </article>

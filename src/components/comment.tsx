@@ -10,7 +10,7 @@ export const Comment = () => {
     const commentScript = document.createElement("script");
     const attributes = {
       src: `https://utteranc.es/client.js`,
-      repo: "HyeokjaeLee/hyeokjaelee.github.io",
+      repo: "bokangkim/bokangkim.github.io",
       "issue-term": "url",
       theme: theme === "dark" ? "photon-dark" : "github-light",
       crossorigin: "anonymous",

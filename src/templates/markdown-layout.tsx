@@ -41,9 +41,12 @@ const BlogSpots = ({ data }: Props) => {
   const { markdownRemark, allMarkdownRemark } = data;
   const postInfo = markdownRemark.frontmatter;
   const postsDataList = allMarkdownRemark.nodes;
-  const postIndex = postsDataList.findIndex((postData) => postData.id === markdownRemark.id);
+  const postIndex = postsDataList.findIndex(
+    (postData) => postData.id === markdownRemark.id
+  );
   const prevPostNode = postIndex > 0 ? postsDataList[postIndex - 1] : null;
-  const nextPostNode = postIndex < postsDataList.length - 1 ? postsDataList[postIndex + 1] : null;
+  const nextPostNode =
+    postIndex < postsDataList.length - 1 ? postsDataList[postIndex + 1] : null;
   const postTags = (
     <ul className="tags each-post in-nav">
       {postInfo.tag.map((_tag, index) => (
@@ -51,7 +54,10 @@ const BlogSpots = ({ data }: Props) => {
       ))}
     </ul>
   );
-  const NearPost = (props: { postNode: Data | null; direction: "left" | "right" }) => {
+  const NearPost = (props: {
+    postNode: Data | null;
+    direction: "left" | "right";
+  }) => {
     const { postNode, direction } = props;
     if (!!postNode) {
       const NearPostInfoElement = [
@@ -97,8 +103,8 @@ const BlogSpots = ({ data }: Props) => {
           <footer>
             <img className="profile pic" src={postProfile} />
             <div className="profile text">
-              <h1>Hyeok-jae Lee</h1>
-              <p>개발자를 꿈꾸는 코더</p>
+              <h1>BoKang_Kim</h1>
+              <p>Math Lover Developer</p>
             </div>
           </footer>
         </article>

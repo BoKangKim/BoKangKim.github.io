@@ -8,30 +8,32 @@ export const Footer = () => (
     <h3>Contact & Channel</h3>
     <ul className="icon-list">
       <li>
-        <a href="mailto:leehyeokjae97@gmail.com">
+        <a href="mailto:bkbk0329@gmail.com">
           <Gmail className="icon" />
         </a>
         <p>Gmail</p>
       </li>
       <li>
-        <a href="https://github.com/HyeokjaeLee">
+        <a href="https://github.com/bokangkim">
           <Github className="icon" />
         </a>
         <p>Github</p>
       </li>
       <li>
-        <a href="https://www.facebook.com/leehyeokjae97">
+        <a href="https://www.facebook.com/bokangkim0329">
           <Facebook className="icon" />
         </a>
         <p>Facebook</p>
       </li>
       <li>
-        <a href="https://www.instagram.com/2z_4_me/">
+        <a href="https://www.instagram.com/bkbk_0329/">
           <Instagram className="icon" />
         </a>
         <p>Instagram</p>
       </li>
     </ul>
-    <p className="copyright">© HyeokjaeLee. All rights reserved. Powered by GitHub Pages.</p>
+    <p className="copyright">
+      © HyeokjaeLee. All rights reserved. Powered by GitHub Pages.
+    </p>
   </footer>
 );

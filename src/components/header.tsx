@@ -5,7 +5,7 @@ export const Header = ({ title }: any) => {
     <header id="header">
       <img src={logo} className="logo"></img>
       <span className="title">
-        <h1>Nagle's blog</h1>
+        <h1>BK's blog</h1>
         <p>Programming & Tech</p>
       </span>
     </header>
