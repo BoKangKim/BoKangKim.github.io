@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"tag":"Backend","totalCount":1},{"tag":"Typescript","totalCount":1}],"nodes":[{"excerpt":"Typescript를 사용하는 이유 저는 Node.js 사용할 때 Javascript보다는 Typescript를 선호합는데\r\n여러 가지 이유가 있겠지만 Javascript…","fields":{"slug":"/test/"},"frontmatter":{"emoji":"📢","date":"2021-08-12","title":"Typescript + Express 웹서버 구축하기","description":"Typescript를 이용한 Express 코드 작성","tag":["Backend","Typescript"]}}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"group":[{"tag":"etc.","totalCount":1}],"nodes":[{"excerpt":"…","fields":{"slug":"/first-post/"},"frontmatter":{"emoji":"👋","date":"2021-11-05","title":"첫 블로그 시작합니다.","description":"블로그 포스팅 계획","tag":["etc."]}}]}},"pageContext":{}},
     "staticQueryHashes": []}
