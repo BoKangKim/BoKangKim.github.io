@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbokangkim_github_io=self.webpackChunkbokangkim_github_io||[]).push([[218],{4909:function(e,n,t){t.r(n);var u=t(7294);n.default=function(){return u.createElement(u.Fragment,null)}}}]);
+//# sourceMappingURL=component---src-pages-404-tsx-12dc4d439641130e3deb.js.map

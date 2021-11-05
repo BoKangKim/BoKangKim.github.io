@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-tsx-12dc4d439641130e3deb.js","mappings":"oJAIA,UAFqB,kBAAM","sources":["webpack://bokangkim.github.io/./src/pages/404.tsx"],"sourcesContent":["import React from \"react\";\r\nimport { Nav } from \"../components/nav\";\r\nconst NotFoundPage = () => <></>;\r\n\r\nexport default NotFoundPage;\r\n"],"names":[],"sourceRoot":""}
