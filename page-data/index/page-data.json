@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-tsx",
     "path": "/",
-    "result": {"data":{"allMarkdownRemark":{"group":[{"tag":"etc.","totalCount":1}],"nodes":[{"excerpt":"…","fields":{"slug":"/first-post/"},"frontmatter":{"emoji":"👋","date":"2021-11-05","title":"첫 블로그 시작합니다.","description":"블로그 포스팅 계획","tag":["etc."]}}]}},"pageContext":{}},
+    "result": {"data":{"allMarkdownRemark":{"group":[{"tag":"JavaScript","totalCount":1},{"tag":"Node.Js","totalCount":1},{"tag":"etc.","totalCount":1},{"tag":"html","totalCount":1}],"nodes":[{"excerpt":"영화 토론 게시판을 주제로 선택한 이유 데이터 베이스 과목에서 My Sql…","fields":{"slug":"/project-first/"},"frontmatter":{"emoji":"🧐","date":"2021-11-06","title":"학업: 데이터 베이스 기말 팀프로젝트-1","description":"데이터 베이스를 이용한 영화 토론 게시판","tag":["html","JavaScript","Node.Js"]}},{"excerpt":"…","fields":{"slug":"/first-post/"},"frontmatter":{"emoji":"👋","date":"2021-11-05","title":"첫 블로그 시작합니다.","description":"블로그 포스팅 계획","tag":["etc."]}}]}},"pageContext":{}},
     "staticQueryHashes": []}
