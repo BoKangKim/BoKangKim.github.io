@@ -12,7 +12,7 @@ tag: [TypeScript, JavaScript, Node.Js]
 
 그런데 메인화면과 영화 상세정보에서 사용해야 하는 포스터는 API에서 제공하지 않습니다. 그래서 찾아본 결과로 API에서 제공하는 movieCd 값으로 해당 영화정보의 URL을 받아올 수 있는 것을 확인하였습니다
 
-[movieCd 값으로 검색한 URL](https://kobis.or.kr/kobis/business/mast/mvie/searchMovieList.do?dtTp=movie&dtCd=20218052)
+`https://kobis.or.kr/kobis/business/mast/mvie/searchMovieList.do?dtTp=movie&dtCd=20218052`
 
 위의 URL 형식처럼 dtCd= 의 값에 API에서 받아온 movieCd으로 입력을 하면 해당 영화 상세정보 페이지로 이동하여 포스터를 크롤링이 가능하여 사용하게 되었습니다..
 
